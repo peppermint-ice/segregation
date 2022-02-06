@@ -281,4 +281,4 @@ PrintTheField(movedField)
 for i in range(200):
     happinessField = CalcHappyness(movedField)
     movedField = Moving(movedField, happinessField, tol)
-    PrintTheField(movedField)
+PrintTheField(movedField)
